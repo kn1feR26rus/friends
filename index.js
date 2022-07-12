@@ -9,7 +9,7 @@ $(document).ready(function () {
       320: {
         slidesPerView: 1,
       },
-      1024: {
+      800: {
         slidesPerView: 3,
       },
     },
