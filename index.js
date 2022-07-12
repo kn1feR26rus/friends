@@ -23,18 +23,11 @@ $(document).ready(function () {
     $(this).toggleClass("open");
     $(".full_menu").toggleClass("open_menu");
     $("body").toggleClass("overflow");
-
-    if (!$(this).hasClass("open")) {
-      $(".full_menu").removeClass("open_menu");
-    }
   });
 
   $(".item_url").click(function () {
     $("#header_nav-btn").toggleClass("open");
     $(".full_menu").toggleClass("open_menu");
     $("body").toggleClass("overflow");
-    if (!$(this).hasClass("open")) {
-      $(".full_menu").removeClass("open_menu");
-    }
   });
 });
