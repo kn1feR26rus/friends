@@ -22,12 +22,10 @@ $(document).ready(function () {
   $("#header_nav-btn").click(function () {
     $(this).toggleClass("open");
     $(".full_menu").toggleClass("open_menu");
-    $("body").toggleClass("overflow");
   });
 
   $(".item_url").click(function () {
     $("#header_nav-btn").toggleClass("open");
     $(".full_menu").toggleClass("open_menu");
-    $("body").toggleClass("overflow");
   });
 });
