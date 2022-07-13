@@ -21,7 +21,6 @@ header {
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: #FFFFFF;
 }
 .header_nav {
     display: flex;
@@ -307,7 +306,6 @@ footer {
     display: none;
     overflow-y: hidden;
 }
-
 .full_menu-nav {
     position: absolute;
     top: 0;
@@ -473,14 +471,12 @@ footer {
     .footer_block {
         margin-left: 0;
     }
-
     .footer_title {
         margin-bottom: 40px;
     }
     .slider {
         height: 650px;
     }
-
     .background {
         height: 500px;
     }
@@ -491,11 +487,9 @@ footer {
         margin-top: 70px;
         font-size: 30px;
     }
-
     .background_footer-block_text {
         font-size: 15px;
     }
-    
     .footer_container {
         flex-direction: column;
     }
